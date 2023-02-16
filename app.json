@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "joaogab",
-    "slug": "joaogab",
+    "name": "MeuAppNav",
+    "slug": "MeuAppNav",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
