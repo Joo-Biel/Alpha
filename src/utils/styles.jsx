@@ -1,15 +1,15 @@
-import { StyleSheet } from "react-native";
 
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
+        alignContent: "center",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#6B238E"
     },
-    h1: {
-        fontSize: "30px",
-        fontWeight: "bold",
+    imgLogo: {
+        minWidth: "200px",
+        minHeight: "200px",
     },
 });
