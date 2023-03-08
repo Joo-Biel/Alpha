@@ -23,7 +23,7 @@ function MBTNavigation() {
       <MBT.Screen name="Início" component={HomeScreen} />
       <MBT.Screen name="Página 2" component={HomeScreen} />
       <MBT.Screen name="Página 3" component={HomeScreen} />
-      <MBT.Screen name="Formulario" component={FormScreen} />
+      <MBT.Screen name="FormScreen" component={FormScreen} />
     </MBT.Navigator>
   );
 }
