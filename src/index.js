@@ -2,8 +2,8 @@ import { createMaterialBottomTabNavigator } from "@react-navigation/material-bot
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from "./screens/Homescreen";
-import FormularioScreen from "./screens/FormularioScreen";
 import SplashScreen from "./screens/SplashScreen";
+import FormScreen from "./screens/FormScreen";
 
 const Stack = createNativeStackNavigator();
 export default function RootNavigation() {
@@ -23,7 +23,7 @@ function MBTNavigation() {
       <MBT.Screen name="Início" component={HomeScreen} />
       <MBT.Screen name="Página 2" component={HomeScreen} />
       <MBT.Screen name="Página 3" component={HomeScreen} />
-      <MBT.Screen name="Formulario" component={FormularioScreen} />
+      <MBT.Screen name="Formulario" component={FormScreen} />
     </MBT.Navigator>
   );
 }
